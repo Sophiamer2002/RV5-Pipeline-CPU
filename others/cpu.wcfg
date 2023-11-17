@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="407097500fs"></ZoomStartTime>
+      <ZoomEndTime time="408972501fs"></ZoomEndTime>
+      <Cursor1Time time="408575500fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="390"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tb/dut/clock_gen_clk_out1" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clock_gen_clk_out1</obj_property>
+      <obj_property name="ObjectShortName">clock_gen_clk_out1</obj_property>
+      <obj_property name="label">CLOCK: clock_gen_clk_out1</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/FetchInstruction_reset" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">FetchInstruction_reset</obj_property>
+      <obj_property name="ObjectShortName">FetchInstruction_reset</obj_property>
+      <obj_property name="label">RESET: FetchInstruction_reset</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group348" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group488" type="group">
+         <obj_property name="label">io</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_wbm_adr" type="array">
+            <obj_property name="ElementShortName">io_wbm_adr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_wbm_adr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_wbm_data_ret" type="array">
+            <obj_property name="ElementShortName">io_wbm_data_ret[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_wbm_data_ret[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_wbm_stb" type="logic">
+            <obj_property name="ElementShortName">io_wbm_stb</obj_property>
+            <obj_property name="ObjectShortName">io_wbm_stb</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_wbm_cyc" type="logic">
+            <obj_property name="ElementShortName">io_wbm_cyc</obj_property>
+            <obj_property name="ObjectShortName">io_wbm_cyc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_wbm_ack" type="logic">
+            <obj_property name="ElementShortName">io_wbm_ack</obj_property>
+            <obj_property name="ObjectShortName">io_wbm_ack</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_flow_out_pc" type="array">
+            <obj_property name="ElementShortName">io_flow_out_pc[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_flow_out_pc[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_flow_out_instruction" type="array">
+            <obj_property name="ElementShortName">io_flow_out_instruction[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_flow_out_instruction[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_flow_out_flushed" type="logic">
+            <obj_property name="ElementShortName">io_flow_out_flushed</obj_property>
+            <obj_property name="ObjectShortName">io_flow_out_flushed</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_stall_in_stall" type="logic">
+            <obj_property name="ElementShortName">io_stall_in_stall</obj_property>
+            <obj_property name="ObjectShortName">io_stall_in_stall</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_stall_in_flush" type="logic">
+            <obj_property name="ElementShortName">io_stall_in_flush</obj_property>
+            <obj_property name="ObjectShortName">io_stall_in_flush</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_new_pc" type="array">
+            <obj_property name="ElementShortName">io_new_pc[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_new_pc[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/FetchInstruction/io_give_up" type="logic">
+            <obj_property name="ElementShortName">io_give_up</obj_property>
+            <obj_property name="ObjectShortName">io_give_up</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/FetchInstruction/REG" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">REG[1:0]</obj_property>
+         <obj_property name="ObjectShortName">REG[1:0]</obj_property>
+         <obj_property name="label">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/FetchInstruction/REG_1" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">REG_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REG_1[31:0]</obj_property>
+         <obj_property name="label">pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/FetchInstruction/REG_2" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">REG_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REG_2[31:0]</obj_property>
+         <obj_property name="label">new_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/FetchInstruction/REG_3" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">REG_3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REG_3[31:0]</obj_property>
+         <obj_property name="label">instruction</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group632" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group633" type="group">
+         <obj_property name="label">io</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group638" type="group">
+            <obj_property name="label">flow_in</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_in_pc" type="array">
+               <obj_property name="ElementShortName">io_flow_in_pc[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_pc[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_in_instruction" type="array">
+               <obj_property name="ElementShortName">io_flow_in_instruction[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_instruction[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_in_flushed" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_flushed</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_flushed</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group639" type="group">
+            <obj_property name="label">flow_out</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_pc" type="array">
+               <obj_property name="ElementShortName">io_flow_out_pc[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_pc[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_opcode" type="array">
+               <obj_property name="ElementShortName">io_flow_out_opcode[6:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_opcode[6:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_funct3" type="array">
+               <obj_property name="ElementShortName">io_flow_out_funct3[2:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_funct3[2:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_use_rs1" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_use_rs1</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_use_rs1</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rs1" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rs1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rs1[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rs1_data" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rs1_data[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rs1_data[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_use_rs2" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_use_rs2</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_use_rs2</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rs2" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rs2[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rs2[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rs2_data" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rs2_data[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rs2_data[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_imm" type="array">
+               <obj_property name="ElementShortName">io_flow_out_imm[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_imm[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_op1" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_op1</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_op1</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_op2" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_op2</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_op2</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_alu_op" type="array">
+               <obj_property name="ElementShortName">io_flow_out_alu_op[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_alu_op[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_cmp_op" type="array">
+               <obj_property name="ElementShortName">io_flow_out_cmp_op[2:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_cmp_op[2:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_mem_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_mem_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_wen</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_mem_ren" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_mem_ren</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_ren</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rf_w_from_mem" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_rf_w_from_mem</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rf_w_from_mem</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rf_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_rf_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rf_wen</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_rd" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rd[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rd[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_flow_out_flushed" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_flushed</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_flushed</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group640" type="group">
+            <obj_property name="label">reg_file</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_raddr_a" type="array">
+               <obj_property name="ElementShortName">io_raddr_a[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_raddr_a[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_rdata_a" type="array">
+               <obj_property name="ElementShortName">io_rdata_a[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_rdata_a[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_raddr_b" type="array">
+               <obj_property name="ElementShortName">io_raddr_b[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_raddr_b[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_rdata_b" type="array">
+               <obj_property name="ElementShortName">io_rdata_b[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_rdata_b[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_wen" type="logic">
+               <obj_property name="ElementShortName">io_wen</obj_property>
+               <obj_property name="ObjectShortName">io_wen</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_waddr" type="array">
+               <obj_property name="ElementShortName">io_waddr[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_waddr[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_wdata" type="array">
+               <obj_property name="ElementShortName">io_wdata[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_wdata[31:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group641" type="group">
+            <obj_property name="label">stall</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_stall_in_stall" type="logic">
+               <obj_property name="ElementShortName">io_stall_in_stall</obj_property>
+               <obj_property name="ObjectShortName">io_stall_in_stall</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_stall_in_flush" type="logic">
+               <obj_property name="ElementShortName">io_stall_in_flush</obj_property>
+               <obj_property name="ObjectShortName">io_stall_in_flush</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/DecodeInstruction/io_stall_out_stall" type="logic">
+               <obj_property name="ElementShortName">io_stall_out_stall</obj_property>
+               <obj_property name="ObjectShortName">io_stall_out_stall</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group634" type="group">
+         <obj_property name="label">imm_gen</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/imm_gen_io_instruction" type="array">
+            <obj_property name="ElementShortName">imm_gen_io_instruction[31:0]</obj_property>
+            <obj_property name="ObjectShortName">imm_gen_io_instruction[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/imm_gen_io_imm" type="array">
+            <obj_property name="ElementShortName">imm_gen_io_imm[31:0]</obj_property>
+            <obj_property name="ObjectShortName">imm_gen_io_imm[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group635" type="group">
+         <obj_property name="label">alu_opcode</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/alu_opcode_io_opcode" type="array">
+            <obj_property name="ElementShortName">alu_opcode_io_opcode[6:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_opcode_io_opcode[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/alu_opcode_io_funct3" type="array">
+            <obj_property name="ElementShortName">alu_opcode_io_funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_opcode_io_funct3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/alu_opcode_io_funct7" type="array">
+            <obj_property name="ElementShortName">alu_opcode_io_funct7[6:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_opcode_io_funct7[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/alu_opcode_io_alu_op" type="array">
+            <obj_property name="ElementShortName">alu_opcode_io_alu_op[3:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_opcode_io_alu_op[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/alu_opcode_io_op1" type="logic">
+            <obj_property name="ElementShortName">alu_opcode_io_op1</obj_property>
+            <obj_property name="ObjectShortName">alu_opcode_io_op1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/alu_opcode_io_op2" type="logic">
+            <obj_property name="ElementShortName">alu_opcode_io_op2</obj_property>
+            <obj_property name="ObjectShortName">alu_opcode_io_op2</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group636" type="group">
+         <obj_property name="label">cmp_opcode</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/cmp_opcode_io_opcode" type="array">
+            <obj_property name="ElementShortName">cmp_opcode_io_opcode[6:0]</obj_property>
+            <obj_property name="ObjectShortName">cmp_opcode_io_opcode[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/cmp_opcode_io_funct3" type="array">
+            <obj_property name="ElementShortName">cmp_opcode_io_funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">cmp_opcode_io_funct3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/cmp_opcode_io_cmp_op" type="array">
+            <obj_property name="ElementShortName">cmp_opcode_io_cmp_op[2:0]</obj_property>
+            <obj_property name="ObjectShortName">cmp_opcode_io_cmp_op[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group637" type="group">
+         <obj_property name="label">regs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/regs_pc" type="array">
+            <obj_property name="ElementShortName">regs_pc[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_pc[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/regs_instruction" type="array">
+            <obj_property name="ElementShortName">regs_instruction[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_instruction[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/DecodeInstruction/regs_flushed" type="logic">
+            <obj_property name="ElementShortName">regs_flushed</obj_property>
+            <obj_property name="ObjectShortName">regs_flushed</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/DecodeInstruction/regs_flushed" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">regs_flushed</obj_property>
+         <obj_property name="ObjectShortName">regs_flushed</obj_property>
+         <obj_property name="label">flushed_this_cycle</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group575" type="group">
+      <obj_property name="label">EXE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group642" type="group">
+         <obj_property name="label">io</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="group1961" type="group">
+            <obj_property name="label">flow_in</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_pc" type="array">
+               <obj_property name="ElementShortName">io_flow_in_pc[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_pc[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_funct3" type="array">
+               <obj_property name="ElementShortName">io_flow_in_funct3[2:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_funct3[2:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_use_rs1" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_use_rs1</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_use_rs1</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rs1" type="array">
+               <obj_property name="ElementShortName">io_flow_in_rs1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rs1[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rs1_data" type="array">
+               <obj_property name="ElementShortName">io_flow_in_rs1_data[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rs1_data[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_use_rs2" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_use_rs2</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_use_rs2</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rs2" type="array">
+               <obj_property name="ElementShortName">io_flow_in_rs2[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rs2[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rs2_data" type="array">
+               <obj_property name="ElementShortName">io_flow_in_rs2_data[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rs2_data[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_imm" type="array">
+               <obj_property name="ElementShortName">io_flow_in_imm[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_imm[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_op1" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_op1</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_op1</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_op2" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_op2</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_op2</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_alu_op" type="array">
+               <obj_property name="ElementShortName">io_flow_in_alu_op[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_alu_op[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_cmp_op" type="array">
+               <obj_property name="ElementShortName">io_flow_in_cmp_op[2:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_cmp_op[2:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_mem_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_mem_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_wen</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_mem_ren" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_mem_ren</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_ren</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rf_w_from_mem" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_rf_w_from_mem</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rf_w_from_mem</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rf_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_rf_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rf_wen</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_rd" type="array">
+               <obj_property name="ElementShortName">io_flow_in_rd[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rd[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_in_flushed" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_flushed</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_flushed</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group1962" type="group">
+            <obj_property name="label">flow_out</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_alu_result" type="array">
+               <obj_property name="ElementShortName">io_flow_out_alu_result[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_alu_result[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_mem_sel" type="array">
+               <obj_property name="ElementShortName">io_flow_out_mem_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_sel[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_mem_unsigned" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_mem_unsigned</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_unsigned</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_mem_wdata" type="array">
+               <obj_property name="ElementShortName">io_flow_out_mem_wdata[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_wdata[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_mem_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_mem_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_wen</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_mem_ren" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_mem_ren</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_ren</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_rf_w_from_mem" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_rf_w_from_mem</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rf_w_from_mem</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_rf_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_rf_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rf_wen</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_rd" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rd[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rd[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_flow_out_flushed" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_flushed</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_flushed</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group1963" type="group">
+            <obj_property name="label">forward</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_raddr_a" type="array">
+               <obj_property name="ElementShortName">io_raddr_a[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_raddr_a[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_raddr_b" type="array">
+               <obj_property name="ElementShortName">io_raddr_b[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_raddr_b[4:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_rdata_a" type="array">
+               <obj_property name="ElementShortName">io_rdata_a[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_rdata_a[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_rdata_b" type="array">
+               <obj_property name="ElementShortName">io_rdata_b[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_rdata_b[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_forward_data_a" type="array">
+               <obj_property name="ElementShortName">io_forward_data_a[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_forward_data_a[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_forward_data_b" type="array">
+               <obj_property name="ElementShortName">io_forward_data_b[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_forward_data_b[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_forward_stall" type="logic">
+               <obj_property name="ElementShortName">io_forward_stall</obj_property>
+               <obj_property name="ObjectShortName">io_forward_stall</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group1964" type="group">
+            <obj_property name="label">stall</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_stall_in_stall" type="logic">
+               <obj_property name="ElementShortName">io_stall_in_stall</obj_property>
+               <obj_property name="ObjectShortName">io_stall_in_stall</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_stall_out_stall" type="logic">
+               <obj_property name="ElementShortName">io_stall_out_stall</obj_property>
+               <obj_property name="ObjectShortName">io_stall_out_stall</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/ExecuteInstruction/io_stall_out_flush" type="logic">
+               <obj_property name="ElementShortName">io_stall_out_flush</obj_property>
+               <obj_property name="ObjectShortName">io_stall_out_flush</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/io_give_up" type="logic">
+            <obj_property name="ElementShortName">io_give_up</obj_property>
+            <obj_property name="ObjectShortName">io_give_up</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/io_new_pc" type="array">
+            <obj_property name="ElementShortName">io_new_pc[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_new_pc[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group643" type="group">
+         <obj_property name="label">alu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/alu_io_alu_op" type="array">
+            <obj_property name="ElementShortName">alu_io_alu_op[3:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_io_alu_op[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/alu_io_a" type="array">
+            <obj_property name="ElementShortName">alu_io_a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_io_a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/alu_io_b" type="array">
+            <obj_property name="ElementShortName">alu_io_b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_io_b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/alu_io_out" type="array">
+            <obj_property name="ElementShortName">alu_io_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_io_out[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group644" type="group">
+         <obj_property name="label">cmp</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/cmp_io_cmp_op" type="array">
+            <obj_property name="ElementShortName">cmp_io_cmp_op[2:0]</obj_property>
+            <obj_property name="ObjectShortName">cmp_io_cmp_op[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/cmp_io_a" type="array">
+            <obj_property name="ElementShortName">cmp_io_a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cmp_io_a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/cmp_io_b" type="array">
+            <obj_property name="ElementShortName">cmp_io_b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cmp_io_b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/cmp_io_out" type="logic">
+            <obj_property name="ElementShortName">cmp_io_out</obj_property>
+            <obj_property name="ObjectShortName">cmp_io_out</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group645" type="group">
+         <obj_property name="label">regs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_pc" type="array">
+            <obj_property name="ElementShortName">regs_pc[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_pc[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_funct3" type="array">
+            <obj_property name="ElementShortName">regs_funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_funct3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_use_rs1" type="logic">
+            <obj_property name="ElementShortName">regs_use_rs1</obj_property>
+            <obj_property name="ObjectShortName">regs_use_rs1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rs1" type="array">
+            <obj_property name="ElementShortName">regs_rs1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_rs1[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rs1_data" type="array">
+            <obj_property name="ElementShortName">regs_rs1_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_rs1_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_use_rs2" type="logic">
+            <obj_property name="ElementShortName">regs_use_rs2</obj_property>
+            <obj_property name="ObjectShortName">regs_use_rs2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rs2" type="array">
+            <obj_property name="ElementShortName">regs_rs2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_rs2[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rs2_data" type="array">
+            <obj_property name="ElementShortName">regs_rs2_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_rs2_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_imm" type="array">
+            <obj_property name="ElementShortName">regs_imm[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_imm[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_op1" type="logic">
+            <obj_property name="ElementShortName">regs_op1</obj_property>
+            <obj_property name="ObjectShortName">regs_op1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_op2" type="logic">
+            <obj_property name="ElementShortName">regs_op2</obj_property>
+            <obj_property name="ObjectShortName">regs_op2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_alu_op" type="array">
+            <obj_property name="ElementShortName">regs_alu_op[3:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_alu_op[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_cmp_op" type="array">
+            <obj_property name="ElementShortName">regs_cmp_op[2:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_cmp_op[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_mem_wen" type="logic">
+            <obj_property name="ElementShortName">regs_mem_wen</obj_property>
+            <obj_property name="ObjectShortName">regs_mem_wen</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_mem_ren" type="logic">
+            <obj_property name="ElementShortName">regs_mem_ren</obj_property>
+            <obj_property name="ObjectShortName">regs_mem_ren</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rf_w_from_mem" type="logic">
+            <obj_property name="ElementShortName">regs_rf_w_from_mem</obj_property>
+            <obj_property name="ObjectShortName">regs_rf_w_from_mem</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rf_wen" type="logic">
+            <obj_property name="ElementShortName">regs_rf_wen</obj_property>
+            <obj_property name="ObjectShortName">regs_rf_wen</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_rd" type="array">
+            <obj_property name="ElementShortName">regs_rd[4:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_rd[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/ExecuteInstruction/regs_flushed" type="logic">
+            <obj_property name="ElementShortName">regs_flushed</obj_property>
+            <obj_property name="ObjectShortName">regs_flushed</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ExecuteInstruction/has_flushed" type="logic">
+         <obj_property name="ElementShortName">has_flushed</obj_property>
+         <obj_property name="ObjectShortName">has_flushed</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group313" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group485" type="group">
+         <obj_property name="label">io</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group481" type="group">
+            <obj_property name="label">io.flow_in</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_alu_result" type="array">
+               <obj_property name="ElementShortName">io_flow_in_alu_result[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_alu_result[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_mem_sel" type="array">
+               <obj_property name="ElementShortName">io_flow_in_mem_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_sel[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_mem_unsigned" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_mem_unsigned</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_unsigned</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_mem_wdata" type="array">
+               <obj_property name="ElementShortName">io_flow_in_mem_wdata[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_wdata[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_mem_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_mem_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_wen</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_mem_ren" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_mem_ren</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_mem_ren</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_rf_w_from_mem" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_rf_w_from_mem</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rf_w_from_mem</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_rf_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_rf_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rf_wen</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_rd" type="array">
+               <obj_property name="ElementShortName">io_flow_in_rd[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_rd[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_in_flushed" type="logic">
+               <obj_property name="ElementShortName">io_flow_in_flushed</obj_property>
+               <obj_property name="ObjectShortName">io_flow_in_flushed</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group482" type="group">
+            <obj_property name="label">io.flow_out</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_out_alu_result" type="array">
+               <obj_property name="ElementShortName">io_flow_out_alu_result[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_alu_result[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_out_mem_load_data" type="array">
+               <obj_property name="ElementShortName">io_flow_out_mem_load_data[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_mem_load_data[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_out_rf_w_from_mem" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_rf_w_from_mem</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rf_w_from_mem</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_out_rf_wen" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_rf_wen</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rf_wen</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_out_rd" type="array">
+               <obj_property name="ElementShortName">io_flow_out_rd[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_rd[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_flow_out_flushed" type="logic">
+               <obj_property name="ElementShortName">io_flow_out_flushed</obj_property>
+               <obj_property name="ObjectShortName">io_flow_out_flushed</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group483" type="group">
+            <obj_property name="label">io.wbm</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_adr" type="array">
+               <obj_property name="ElementShortName">io_wbm_adr[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_adr[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_data_send" type="array">
+               <obj_property name="ElementShortName">io_wbm_data_send[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_data_send[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_data_ret" type="array">
+               <obj_property name="ElementShortName">io_wbm_data_ret[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_data_ret[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_sel" type="array">
+               <obj_property name="ElementShortName">io_wbm_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_sel[3:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_stb" type="logic">
+               <obj_property name="ElementShortName">io_wbm_stb</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_stb</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_cyc" type="logic">
+               <obj_property name="ElementShortName">io_wbm_cyc</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_cyc</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_we" type="logic">
+               <obj_property name="ElementShortName">io_wbm_we</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_we</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wbm_ack" type="logic">
+               <obj_property name="ElementShortName">io_wbm_ack</obj_property>
+               <obj_property name="ObjectShortName">io_wbm_ack</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group486" type="group">
+            <obj_property name="label">forward</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_waddr" type="array">
+               <obj_property name="ElementShortName">io_waddr[4:0]</obj_property>
+               <obj_property name="ObjectShortName">io_waddr[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wdata" type="array">
+               <obj_property name="ElementShortName">io_wdata[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_wdata[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_wen" type="logic">
+               <obj_property name="ElementShortName">io_wen</obj_property>
+               <obj_property name="ObjectShortName">io_wen</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/MemoryInstruction/io_data_done" type="logic">
+               <obj_property name="ElementShortName">io_data_done</obj_property>
+               <obj_property name="ObjectShortName">io_data_done</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/io_stall_out_stall" type="logic">
+            <obj_property name="ElementShortName">io_stall_out_stall</obj_property>
+            <obj_property name="ObjectShortName">io_stall_out_stall</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/MemoryInstruction/use_mem" type="logic">
+         <obj_property name="ElementShortName">use_mem</obj_property>
+         <obj_property name="ObjectShortName">use_mem</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group484" type="group">
+         <obj_property name="label">regs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_alu_result" type="array">
+            <obj_property name="ElementShortName">regs_alu_result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_alu_result[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_mem_sel" type="array">
+            <obj_property name="ElementShortName">regs_mem_sel[3:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_mem_sel[3:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_mem_wdata" type="array">
+            <obj_property name="ElementShortName">regs_mem_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_mem_wdata[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_mem_wen" type="logic">
+            <obj_property name="ElementShortName">regs_mem_wen</obj_property>
+            <obj_property name="ObjectShortName">regs_mem_wen</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_mem_ren" type="logic">
+            <obj_property name="ElementShortName">regs_mem_ren</obj_property>
+            <obj_property name="ObjectShortName">regs_mem_ren</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_rf_w_from_mem" type="logic">
+            <obj_property name="ElementShortName">regs_rf_w_from_mem</obj_property>
+            <obj_property name="ObjectShortName">regs_rf_w_from_mem</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_rf_wen" type="logic">
+            <obj_property name="ElementShortName">regs_rf_wen</obj_property>
+            <obj_property name="ObjectShortName">regs_rf_wen</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_rd" type="array">
+            <obj_property name="ElementShortName">regs_rd[4:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_rd[4:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/MemoryInstruction/regs_flushed" type="logic">
+            <obj_property name="ElementShortName">regs_flushed</obj_property>
+            <obj_property name="ObjectShortName">regs_flushed</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group244" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_flow_in_alu_result" type="array">
+         <obj_property name="ElementShortName">io_flow_in_alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_flow_in_alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_flow_in_mem_load_data" type="array">
+         <obj_property name="ElementShortName">io_flow_in_mem_load_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_flow_in_mem_load_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_flow_in_rf_w_from_mem" type="logic">
+         <obj_property name="ElementShortName">io_flow_in_rf_w_from_mem</obj_property>
+         <obj_property name="ObjectShortName">io_flow_in_rf_w_from_mem</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_flow_in_rf_wen" type="logic">
+         <obj_property name="ElementShortName">io_flow_in_rf_wen</obj_property>
+         <obj_property name="ObjectShortName">io_flow_in_rf_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_flow_in_rd" type="array">
+         <obj_property name="ElementShortName">io_flow_in_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">io_flow_in_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_flow_in_flushed" type="logic">
+         <obj_property name="ElementShortName">io_flow_in_flushed</obj_property>
+         <obj_property name="ObjectShortName">io_flow_in_flushed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_waddr" type="array">
+         <obj_property name="ElementShortName">io_waddr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">io_waddr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_wdata" type="array">
+         <obj_property name="ElementShortName">io_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WriteBackInstruction/io_wen" type="logic">
+         <obj_property name="ElementShortName">io_wen</obj_property>
+         <obj_property name="ObjectShortName">io_wen</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group191" type="group">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group487" type="group">
+         <obj_property name="label">io</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/dut/RegFile/io_raddr_a" type="array">
+            <obj_property name="ElementShortName">io_raddr_a[4:0]</obj_property>
+            <obj_property name="ObjectShortName">io_raddr_a[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/io_rdata_a" type="array">
+            <obj_property name="ElementShortName">io_rdata_a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_rdata_a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/io_raddr_b" type="array">
+            <obj_property name="ElementShortName">io_raddr_b[4:0]</obj_property>
+            <obj_property name="ObjectShortName">io_raddr_b[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/io_rdata_b" type="array">
+            <obj_property name="ElementShortName">io_rdata_b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_rdata_b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/io_waddr" type="array">
+            <obj_property name="ElementShortName">io_waddr[4:0]</obj_property>
+            <obj_property name="ObjectShortName">io_waddr[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/io_wdata" type="array">
+            <obj_property name="ElementShortName">io_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">io_wdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/io_wen" type="logic">
+            <obj_property name="ElementShortName">io_wen</obj_property>
+            <obj_property name="ObjectShortName">io_wen</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group199" type="group">
+         <obj_property name="label">regs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/dut/RegFile/regs_0" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_0[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_0[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x0/zero</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_1" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_1[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x1/ra</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_2" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_2[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x2/sp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_3" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_3[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x3/gp</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_4" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_4[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_4[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x4/tp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_5" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_5[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_5[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x5/t0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_6" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_6[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_6[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="label">x6/t1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_7" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_7[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_7[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x7/t2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_8" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_8[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_8[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x8/s0/fp</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/RegFile/regs_9" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">regs_9[31:0]</obj_property>
+            <obj_property name="ObjectShortName">regs_9[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="label">x9/s1</obj_property>
+         </wvobject>
+         <wvobject fp_name="group1960" type="group">
+            <obj_property name="label">automatic</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/RegFile/regs_10" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_10[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_10[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x10/a0</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_11" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_11[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_11[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x11/a1</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_12" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_12[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_12[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x12/a2</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_13" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_13[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_13[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x13/a3</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_14" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_14[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_14[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x14/a4</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_15" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_15[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_15[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x15/a5</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_16" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_16[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_16[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x16/a6</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_17" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_17[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_17[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x17/a7</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group1959" type="group">
+            <obj_property name="label">saved</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/RegFile/regs_18" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_18[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_18[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x18/s2</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_19" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_19[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_19[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x19/s3</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_20" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_20[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_20[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x20/s4</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_21" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_21[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_21[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x21/s5</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_22" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_22[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_22[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x22/s6</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_23" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_23[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_23[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x23/s7</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_24" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_24[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_24[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x24/s8</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_25" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_25[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_25[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x25/s9</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_26" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_26[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_26[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x26/s10</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_27" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_27[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_27[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x27/s11</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group1958" type="group">
+            <obj_property name="label">temp</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/RegFile/regs_28" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_28[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_28[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x28/t3</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_29" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_29[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_29[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x29/t4</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_30" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_30[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_30[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x30/t5</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/RegFile/regs_31" type="array">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">regs_31[31:0]</obj_property>
+               <obj_property name="ObjectShortName">regs_31[31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFD700</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="label">x31/t6</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group421" type="group">
+      <obj_property name="label">wb_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group648" type="group">
+         <obj_property name="label">io</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group652" type="group">
+            <obj_property name="label">slave_0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_adr" type="array">
+               <obj_property name="ElementShortName">io_slave_0_adr[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_adr[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_data_in" type="array">
+               <obj_property name="ElementShortName">io_slave_0_data_in[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_data_in[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_data_out" type="array">
+               <obj_property name="ElementShortName">io_slave_0_data_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_data_out[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_sel" type="array">
+               <obj_property name="ElementShortName">io_slave_0_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_sel[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_cyc" type="logic">
+               <obj_property name="ElementShortName">io_slave_0_cyc</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_cyc</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_stb" type="logic">
+               <obj_property name="ElementShortName">io_slave_0_stb</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_stb</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_we" type="logic">
+               <obj_property name="ElementShortName">io_slave_0_we</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_we</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_0_ack" type="logic">
+               <obj_property name="ElementShortName">io_slave_0_ack</obj_property>
+               <obj_property name="ObjectShortName">io_slave_0_ack</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group653" type="group">
+            <obj_property name="label">slave_1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_adr" type="array">
+               <obj_property name="ElementShortName">io_slave_1_adr[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_adr[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_data_in" type="array">
+               <obj_property name="ElementShortName">io_slave_1_data_in[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_data_in[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_data_out" type="array">
+               <obj_property name="ElementShortName">io_slave_1_data_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_data_out[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_sel" type="array">
+               <obj_property name="ElementShortName">io_slave_1_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_sel[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_cyc" type="logic">
+               <obj_property name="ElementShortName">io_slave_1_cyc</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_cyc</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_stb" type="logic">
+               <obj_property name="ElementShortName">io_slave_1_stb</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_stb</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_we" type="logic">
+               <obj_property name="ElementShortName">io_slave_1_we</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_we</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_1_ack" type="logic">
+               <obj_property name="ElementShortName">io_slave_1_ack</obj_property>
+               <obj_property name="ObjectShortName">io_slave_1_ack</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group654" type="group">
+            <obj_property name="label">slave_2</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_adr" type="array">
+               <obj_property name="ElementShortName">io_slave_2_adr[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_adr[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_data_in" type="array">
+               <obj_property name="ElementShortName">io_slave_2_data_in[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_data_in[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_data_out" type="array">
+               <obj_property name="ElementShortName">io_slave_2_data_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_data_out[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_sel" type="array">
+               <obj_property name="ElementShortName">io_slave_2_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_sel[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_cyc" type="logic">
+               <obj_property name="ElementShortName">io_slave_2_cyc</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_cyc</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_stb" type="logic">
+               <obj_property name="ElementShortName">io_slave_2_stb</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_stb</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_we" type="logic">
+               <obj_property name="ElementShortName">io_slave_2_we</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_we</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_slave_2_ack" type="logic">
+               <obj_property name="ElementShortName">io_slave_2_ack</obj_property>
+               <obj_property name="ObjectShortName">io_slave_2_ack</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group655" type="group">
+            <obj_property name="label">master_0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_adr" type="array">
+               <obj_property name="ElementShortName">io_master_0_adr[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_adr[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_data_send" type="array">
+               <obj_property name="ElementShortName">io_master_0_data_send[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_data_send[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_data_ret" type="array">
+               <obj_property name="ElementShortName">io_master_0_data_ret[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_data_ret[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_sel" type="array">
+               <obj_property name="ElementShortName">io_master_0_sel[3:0]</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_sel[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_stb" type="logic">
+               <obj_property name="ElementShortName">io_master_0_stb</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_stb</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_cyc" type="logic">
+               <obj_property name="ElementShortName">io_master_0_cyc</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_cyc</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_we" type="logic">
+               <obj_property name="ElementShortName">io_master_0_we</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_we</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_0_ack" type="logic">
+               <obj_property name="ElementShortName">io_master_0_ack</obj_property>
+               <obj_property name="ObjectShortName">io_master_0_ack</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group656" type="group">
+            <obj_property name="label">master_1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_1_adr" type="array">
+               <obj_property name="ElementShortName">io_master_1_adr[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_master_1_adr[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_1_data_ret" type="array">
+               <obj_property name="ElementShortName">io_master_1_data_ret[31:0]</obj_property>
+               <obj_property name="ObjectShortName">io_master_1_data_ret[31:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_1_stb" type="logic">
+               <obj_property name="ElementShortName">io_master_1_stb</obj_property>
+               <obj_property name="ObjectShortName">io_master_1_stb</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_1_cyc" type="logic">
+               <obj_property name="ElementShortName">io_master_1_cyc</obj_property>
+               <obj_property name="ObjectShortName">io_master_1_cyc</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/dut/WishboneMutiplexer/io_master_1_ack" type="logic">
+               <obj_property name="ElementShortName">io_master_1_ack</obj_property>
+               <obj_property name="ObjectShortName">io_master_1_ack</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/REG" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">REG</obj_property>
+         <obj_property name="ObjectShortName">REG</obj_property>
+         <obj_property name="label">chosen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/REG_1" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">REG_1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">REG_1[1:0]</obj_property>
+         <obj_property name="label">master_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/request_vec_0" type="logic">
+         <obj_property name="ElementShortName">request_vec_0</obj_property>
+         <obj_property name="ObjectShortName">request_vec_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/request_vec_1" type="logic">
+         <obj_property name="ElementShortName">request_vec_1</obj_property>
+         <obj_property name="ObjectShortName">request_vec_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/has_request" type="logic">
+         <obj_property name="ElementShortName">has_request</obj_property>
+         <obj_property name="ObjectShortName">has_request</obj_property>
+      </wvobject>
+      <wvobject fp_name="group649" type="group">
+         <obj_property name="label">match</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/dut/WishboneMutiplexer/slave_match_0" type="logic">
+            <obj_property name="ElementShortName">slave_match_0</obj_property>
+            <obj_property name="ObjectShortName">slave_match_0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/WishboneMutiplexer/slave_match_1" type="logic">
+            <obj_property name="ElementShortName">slave_match_1</obj_property>
+            <obj_property name="ObjectShortName">slave_match_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/dut/WishboneMutiplexer/slave_match_2" type="logic">
+            <obj_property name="ElementShortName">slave_match_2</obj_property>
+            <obj_property name="ObjectShortName">slave_match_2</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/select_error" type="logic">
+         <obj_property name="ElementShortName">select_error</obj_property>
+         <obj_property name="ObjectShortName">select_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/ack" type="logic">
+         <obj_property name="ElementShortName">ack</obj_property>
+         <obj_property name="ObjectShortName">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/arbiter" type="logic">
+         <obj_property name="ElementShortName">arbiter</obj_property>
+         <obj_property name="ObjectShortName">arbiter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/cur_master_idx" type="array">
+         <obj_property name="ElementShortName">cur_master_idx[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_master_idx[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/WishboneMutiplexer/cur_slave_idx" type="array">
+         <obj_property name="ElementShortName">cur_slave_idx[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_slave_idx[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group431" type="group">
+      <obj_property name="label">Stall</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/StallLogic/io_IF_out_stall" type="logic">
+         <obj_property name="ElementShortName">io_IF_out_stall</obj_property>
+         <obj_property name="ObjectShortName">io_IF_out_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_IF_out_flush" type="logic">
+         <obj_property name="ElementShortName">io_IF_out_flush</obj_property>
+         <obj_property name="ObjectShortName">io_IF_out_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_ID_in_stall" type="logic">
+         <obj_property name="ElementShortName">io_ID_in_stall</obj_property>
+         <obj_property name="ObjectShortName">io_ID_in_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_ID_out_stall" type="logic">
+         <obj_property name="ElementShortName">io_ID_out_stall</obj_property>
+         <obj_property name="ObjectShortName">io_ID_out_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_ID_out_flush" type="logic">
+         <obj_property name="ElementShortName">io_ID_out_flush</obj_property>
+         <obj_property name="ObjectShortName">io_ID_out_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_EX_in_stall" type="logic">
+         <obj_property name="ElementShortName">io_EX_in_stall</obj_property>
+         <obj_property name="ObjectShortName">io_EX_in_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_EX_in_flush" type="logic">
+         <obj_property name="ElementShortName">io_EX_in_flush</obj_property>
+         <obj_property name="ObjectShortName">io_EX_in_flush</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_EX_out_stall" type="logic">
+         <obj_property name="ElementShortName">io_EX_out_stall</obj_property>
+         <obj_property name="ObjectShortName">io_EX_out_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/StallLogic/io_MEM_in_stall" type="logic">
+         <obj_property name="ElementShortName">io_MEM_in_stall</obj_property>
+         <obj_property name="ObjectShortName">io_MEM_in_stall</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group452" type="group">
+      <obj_property name="label">Forward</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_ex_raddr_a" type="array">
+         <obj_property name="ElementShortName">io_ex_raddr_a[4:0]</obj_property>
+         <obj_property name="ObjectShortName">io_ex_raddr_a[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_ex_rdata_a" type="array">
+         <obj_property name="ElementShortName">io_ex_rdata_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_ex_rdata_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_ex_raddr_b" type="array">
+         <obj_property name="ElementShortName">io_ex_raddr_b[4:0]</obj_property>
+         <obj_property name="ObjectShortName">io_ex_raddr_b[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_ex_rdata_b" type="array">
+         <obj_property name="ElementShortName">io_ex_rdata_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_ex_rdata_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_mem_waddr" type="array">
+         <obj_property name="ElementShortName">io_mem_waddr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">io_mem_waddr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_mem_wdata" type="array">
+         <obj_property name="ElementShortName">io_mem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_mem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_mem_wen" type="logic">
+         <obj_property name="ElementShortName">io_mem_wen</obj_property>
+         <obj_property name="ObjectShortName">io_mem_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_mem_data_done" type="logic">
+         <obj_property name="ElementShortName">io_mem_data_done</obj_property>
+         <obj_property name="ObjectShortName">io_mem_data_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_wb_waddr" type="array">
+         <obj_property name="ElementShortName">io_wb_waddr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wb_waddr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_wb_wdata" type="array">
+         <obj_property name="ElementShortName">io_wb_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wb_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_wb_wen" type="logic">
+         <obj_property name="ElementShortName">io_wb_wen</obj_property>
+         <obj_property name="ObjectShortName">io_wb_wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_stall" type="logic">
+         <obj_property name="ElementShortName">io_stall</obj_property>
+         <obj_property name="ObjectShortName">io_stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_forward_data_a" type="array">
+         <obj_property name="ElementShortName">io_forward_data_a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_forward_data_a[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/io_forward_data_b" type="array">
+         <obj_property name="ElementShortName">io_forward_data_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_forward_data_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/_T_2" type="logic">
+         <obj_property name="ElementShortName">_T_2</obj_property>
+         <obj_property name="ObjectShortName">_T_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/_T_4" type="logic">
+         <obj_property name="ElementShortName">_T_4</obj_property>
+         <obj_property name="ObjectShortName">_T_4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/_GEN_0" type="array">
+         <obj_property name="ElementShortName">_GEN_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_GEN_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/_GEN_2" type="logic">
+         <obj_property name="ElementShortName">_GEN_2</obj_property>
+         <obj_property name="ObjectShortName">_GEN_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/_T_11" type="logic">
+         <obj_property name="ElementShortName">_T_11</obj_property>
+         <obj_property name="ObjectShortName">_T_11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ForwardLogic/_GEN_3" type="array">
+         <obj_property name="ElementShortName">_GEN_3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_GEN_3[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group478" type="group">
+      <obj_property name="label">BaseRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_sram_data" type="array">
+         <obj_property name="ElementShortName">io_sram_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_sram_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_sram_addr" type="array">
+         <obj_property name="ElementShortName">io_sram_addr[19:0]</obj_property>
+         <obj_property name="ObjectShortName">io_sram_addr[19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_sram_be_n" type="array">
+         <obj_property name="ElementShortName">io_sram_be_n[3:0]</obj_property>
+         <obj_property name="ObjectShortName">io_sram_be_n[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_sram_ce_n" type="logic">
+         <obj_property name="ElementShortName">io_sram_ce_n</obj_property>
+         <obj_property name="ObjectShortName">io_sram_ce_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_sram_oe_n" type="logic">
+         <obj_property name="ElementShortName">io_sram_oe_n</obj_property>
+         <obj_property name="ObjectShortName">io_sram_oe_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_sram_we_n" type="logic">
+         <obj_property name="ElementShortName">io_sram_we_n</obj_property>
+         <obj_property name="ObjectShortName">io_sram_we_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_adr" type="array">
+         <obj_property name="ElementShortName">io_wb_adr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wb_adr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_data_in" type="array">
+         <obj_property name="ElementShortName">io_wb_data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wb_data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_data_out" type="array">
+         <obj_property name="ElementShortName">io_wb_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wb_data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_sel" type="array">
+         <obj_property name="ElementShortName">io_wb_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">io_wb_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_cyc" type="logic">
+         <obj_property name="ElementShortName">io_wb_cyc</obj_property>
+         <obj_property name="ObjectShortName">io_wb_cyc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_stb" type="logic">
+         <obj_property name="ElementShortName">io_wb_stb</obj_property>
+         <obj_property name="ObjectShortName">io_wb_stb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_we" type="logic">
+         <obj_property name="ElementShortName">io_wb_we</obj_property>
+         <obj_property name="ObjectShortName">io_wb_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/io_wb_ack" type="logic">
+         <obj_property name="ElementShortName">io_wb_ack</obj_property>
+         <obj_property name="ObjectShortName">io_wb_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/buf__data_in" type="array">
+         <obj_property name="ElementShortName">buf__data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">buf__data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/buf__data_out" type="array">
+         <obj_property name="ElementShortName">buf__data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">buf__data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/buf__enable" type="logic">
+         <obj_property name="ElementShortName">buf__enable</obj_property>
+         <obj_property name="ObjectShortName">buf__enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/_T" type="logic">
+         <obj_property name="ElementShortName">_T</obj_property>
+         <obj_property name="ObjectShortName">_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/_T_1" type="logic">
+         <obj_property name="ElementShortName">_T_1</obj_property>
+         <obj_property name="ObjectShortName">_T_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/_T_4" type="logic">
+         <obj_property name="ElementShortName">_T_4</obj_property>
+         <obj_property name="ObjectShortName">_T_4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/_T_5" type="logic">
+         <obj_property name="ElementShortName">_T_5</obj_property>
+         <obj_property name="ObjectShortName">_T_5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/SRAM_Controller_1/_T_6" type="array">
+         <obj_property name="ElementShortName">_T_6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">_T_6[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
